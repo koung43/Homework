@@ -1,0 +1,138 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-image: url('https://images.pexels.com/photos/1670187/pexels-photo-1670187.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1670187.jpg&fm=jpg');
+
+}
+
+header {
+    /* background-color: #343a40; */
+    /* color: #fff; */
+    /* text-align: right; */
+    /* padding: 1em 0; */
+    /* width: 100%; */
+    /* height: 50px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    
+}
+.container{
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 70px;
+}
+
+section {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #7b7b7b; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+}
+h1{
+    color: #ffffff;
+    font-size: 100px;
+}
+h2{
+    color: #ffffff;
+    font-size: 75px;
+}
+h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #ffffff;
+
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .project {
+        width: 100%;
+    }
+}
+.progress-bar {
+    height: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #343a40;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+p{
+    color: #ffffff;
+}
+img{
+    width: 300px;
+}
+nav img{
+width: 100px;
+justify-content: right;
+}
+.logo{
+    /* width: 5%; */
+}
